@@ -853,11 +853,13 @@ footer{
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
+
 }
 
 .Sfooter-container span{
     display: flex;
     align-items: flex-end;
+    margin: 10px 0;
     flex-wrap: wrap;
 
 }
