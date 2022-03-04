@@ -851,12 +851,14 @@ footer{
    
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
 }
 
 .Sfooter-container span{
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
 
 }
 .Sfooter-container span h3{
@@ -1236,6 +1238,7 @@ h1{
 }
 .breadcrumbs-container{
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: center; */
     align-items: center;
 }
@@ -1431,6 +1434,9 @@ h1{
         border: none;     
      
     }
+    .about-product-container{
+        flex-direction: column;
+    }
 
 }
 
@@ -1481,6 +1487,9 @@ h1{
     }
     .header-content .heart-cart{
         align-self: center;
+    }
+    .ab_color{
+        display: none;
     }
 }
 
